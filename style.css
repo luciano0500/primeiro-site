@@ -15,10 +15,10 @@
 }
 
 h1{
-    background-color: #6352ff;
+    background-color: rgb(#5e503fff);
 }
 .cabecalho{
-    background-color: var(--);
+    background-color: var(--khaki);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ h1{
   
 
 .cabecalho{
-    background-color: var(--khaki) ;
+    background-color: var(--gunmetal) ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,3 +45,40 @@ h1{
     font-family: var(--fonte-titulo);
     margin-right: 1em;
 }
+
+.principal-capa{
+    display: flex;
+    background-color: var(--walnut-brown);
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+   
+.principal-capa__titulo{
+    font-size: 2.5em ;
+    font-family: var(--fonte-titulo);
+}
+
+.principal-capa__titulo{
+    font-size: 2em;
+}
+
+.principal-capa__img{
+    border-radius: 10px;
+
+}
+ .principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .principal-capa__botao{
+    background-color: var(--walnut-brown);
+    color: var(--black);
+    padding: 1em;
+    margin-top: 1em;
+    font-size: 1.3em;
+    width: 50%;
+    text-decoration: none;
+    border-radius: 10px;
+ }
